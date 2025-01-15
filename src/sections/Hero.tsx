@@ -7,7 +7,7 @@ import { HeroOrbit } from "@/components/HeroOrbit";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-clip" >
+    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-clip" id="hero" >
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className=" absolute inset-0 -z-30 opacity-5"
@@ -91,6 +91,8 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
+            
+
             <span className="font-semibold">Let&apos;s connect</span>
           </button>
         </div>

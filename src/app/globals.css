@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* globals.css */
+
+body {
+  @apply bg-gray-900 text-white; /* Default Dark Mode styles */
+}
+
+.dark body {
+  @apply bg-sky-900 text-white; /* Light Mode styles */
+}
+
+
 @layer base {
   .nav-item {
     @apply px-4 py-1.5 rounded-full text-white/70  text-sm font-semibold hover:bg-white/10 hover:text-white 
@@ -20,4 +32,7 @@
   .container {
     @apply lg:max-w-5xl;
   }
+
+  
 }
+
