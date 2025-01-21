@@ -9,9 +9,7 @@ body {
   @apply bg-gray-900 text-white; /* Default Dark Mode styles */
 }
 
-.dark body {
-  @apply bg-sky-900 text-white; /* Light Mode styles */
-}
+
 
 
 @layer base {
