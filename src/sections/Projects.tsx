@@ -9,46 +9,48 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "personal project",
-    year: "2024",
-    title: "Ai Chat Bot",
+    company: "Personal Project",
+    year: "2025",
+    title: "Chatty",
     results: [
-      { title: "Realtime chat Response" },
-      { title: "image searach" },
-      { title: "" },
+      { title: "Real-time Chat Response" },
+      { title: "Image Search Integration" },
+      { title: "User Authentication and Authorization" }, // Adding a key feature like user authentication
+      { title: "Message History and Notifications" },
+    ],
+    link: "https://fullstack-chat-app-2-ynz0.onrender.com",
+    image: darkSaasLandingPagew,
+  },
+  {
+    company: "Personal Project",
+    year: "2024",
+    title: "AI Chat Bot",
+    results: [
+      { title: "Real-time Chat Responses" },
+      { title: "Image Search Integration" },
+      { title: "Natural Language Processing (NLP) for AI Conversations" }, // Added NLP as a key feature
+      { title: "Personalized User Interactions" },
     ],
     link: "https://startling-sawine-5ed66c.netlify.app/",
     image: darkSaasLandingPage,
   },
- { company: "personal project",
-  year: "2024",
-  title: "chatty",
-  results: [
-    { title: "Realtime chat Response" },
-    { title: "image searach" },
-    { title: "" },
-  ],
-  link: "https://fullstack-chat-app-2-ynz0.onrender.com",
-  image: darkSaasLandingPagew,
-}
-
 ];
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 lg:py-24" id="projects" >
+    <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
-        <SectionHeader 
-        eyebrow="Real-World-Results"
-        title="Featured Projects"
-        description="see how I transformed concepts into engaging digital experiences."
+        <SectionHeader
+          eyebrow="Real-World-Results"
+          title="Featured Projects"
+          description="see how I transformed concepts into engaging digital experiences."
         />
         <div className="flex flex-col mt-10 gap-20 md:mt20 ">
-          {portfolioProjects.map((project,projectIndex) => (
+          {portfolioProjects.map((project, projectIndex) => (
             <Card
               key={project.title}
               className="px-8 pt-8 md:pt-12 pb-0 md:px-10 lg:pt-16 lg:px-20 sticky top-16"
-              style={{ top: `calc(64px + ${projectIndex * 40}px)`}}
+              style={{ top: `calc(64px + ${projectIndex * 40}px)` }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
@@ -87,18 +89,17 @@ export const ProjectsSection = () => {
                       <span>Visit Live Site</span>
                       <ArrowUpRightIcon className="size-4" />
                     </button>
-                    
                   </a>
                 </div>
                 <div>
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  className="mt-8 -mb-4 md:-mb-0  lg:mt-0 
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    className="mt-8 -mb-4 md:-mb-0  lg:mt-0 
                   lg:absolute lg:h-full
                   lg:w-auto lg:max-w-none
                   "
-                />
+                  />
                 </div>
               </div>
             </Card>
