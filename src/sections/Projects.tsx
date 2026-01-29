@@ -21,6 +21,19 @@ const portfolioProjects = [
     link: "https://fullstack-chat-app-2-ynz0.onrender.com",
     image: darkSaasLandingPagew,
   },
+   {
+  company: "Personal Project",
+  year: "2026",
+  title: "Creatdiv",
+  results: [
+    { title: "Built an AI-powered image generation platform for creating high-quality visuals from text prompts" },
+    { title: "Implemented content rewriting and enhancement features for marketing and creative use-cases" },
+    { title: "Integrated secure user authentication and authorization with JWT-based access control" },
+    { title: "Optimized prompt handling, history management, and output delivery for better user experience" },
+  ],
+  link: "https://cms-genrator.vercel.app/",
+  image: darkSaasLandingPagew,
+},
   {
     company: "Personal Project",
     year: "2024",
