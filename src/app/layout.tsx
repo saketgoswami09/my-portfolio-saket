@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Calistoga } from "next/font/google";
+import { Poppins, Calistoga } from "next/font/google"; // Fix 1: Removed duplicate Poppins
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import { Providers } from "./providers";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+// Fix 2: Added weight to Poppins (it's a variable font but usually requires weights if not specified)
+const poppins = Poppins({ 
+  subsets: ["latin"], 
+  variable: "--font-sans",
+  weight: ["400", "500", "600", "700"] 
+});
 
 const calistoga = Calistoga({
   subsets: ["latin"],
@@ -26,9 +31,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={twMerge(
-          inter.variable,
-          calistoga.variable,
-          
+          "bg-gray-900 text-white antialiased font-sans", // Fix 3: Added base classes
+          poppins.variable,
+          calistoga.variable
         )}
       >
         <Providers>

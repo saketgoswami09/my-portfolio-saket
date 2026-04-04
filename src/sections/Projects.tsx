@@ -1,7 +1,7 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import creatdivPreview from "@/assets/images/darkSaasLandingPagew.png";
-import healthCheckAiPreview from "@/assets/images/health-check-ai.png";
-import chattyPreview from "@/assets/images/chatty-preview.png";
+import darkSaasLandingPage from "../assets/images/dark-saas-landing-page.png";
+import creatdivPreview from "../assets/images/creatdiv-preview.png";
+import healthCheckAiPreview from "../assets/images/health-check-ai.png";
+import chattyPreview from "../assets/images/chatty-preview.png";
 
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
