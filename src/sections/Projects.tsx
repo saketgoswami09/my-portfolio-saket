@@ -70,7 +70,7 @@ const portfolioProjects: PortfolioProject[] = [
           "Designed patient-friendly AI explanations for lab reports and clinical summaries",
       },
     ],
-    link: "healthcheck-ai-rag-lite.vercel.app",
+    link: "https://healthcheck-ai-rag-lite.vercel.app/",
     image: healthCheckAiPreview,
   },
   {
@@ -84,7 +84,7 @@ const portfolioProjects: PortfolioProject[] = [
       { title: "JWT-based authentication and route protection" },
       { title: "Message history and notification workflows" },
     ],
-    link: "fullstack-chat-app-mauve.vercel.app/",
+    link: "https://fullstack-chat-app-mauve.vercel.app/",
     image: chattyPreview,
   },
 ];
