@@ -1,21 +1,15 @@
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const footerLinks = [
-  {
-    title: "instagram",
-    link: "#",
-  },
+  
   {
     title: "github",
-    link: "#",
+    link: "https://github.com/saketgoswami09",
   },
-  {
-    title: "twitter",
-    link: "#",
-  },
+  
   {
     title: "Linkedin",
-    link: "#",
+    link: "https://www.linkedin.com/in/saket-giri-4408992a2",
   },
 ];
 
