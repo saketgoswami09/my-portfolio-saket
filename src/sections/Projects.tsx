@@ -2,6 +2,7 @@ import darkSaasLandingPage from "../assets/images/dark-saas-landing-page.png";
 import creatdivPreview from "../assets/images/creatdiv-preview.png";
 import healthCheckAiPreview from "../assets/images/health-check-ai.png";
 import chattyPreview from "../assets/images/chatty-preview.png";
+import learnXPreview from "../assets/images/learnXPreview.png";
 
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
@@ -47,6 +48,32 @@ const portfolioProjects: PortfolioProject[] = [
     link: "https://cms-genrator.vercel.app/",
     image: creatdivPreview,
   },
+  {
+  company: "Personal Project",
+  year: "2026",
+  title: "LearnX",
+  stack: "Next.js • TypeScript • Zustand • Tailwind • Local-First",
+  results: [
+    {
+      title:
+        "Built a local-first learning environment that automatically organizes educational content into structured courses and modules",
+    },
+    {
+      title:
+        "Implemented progress tracking, resume learning, bookmarks, notes, and distraction-free content consumption",
+    },
+    {
+      title:
+        "Developed browser-based local file handling to enable private, serverless learning without uploading user content",
+    },
+    {
+      title:
+        "Designed a premium dashboard experience with analytics, continue learning workflows, and personalized learning progress",
+    },
+  ],
+  link: "https://learn-x-sigma-ten.vercel.app/",
+  image: learnXPreview,
+},
   {
     company: "Personal Project",
     year: "2026",
