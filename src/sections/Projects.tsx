@@ -22,32 +22,7 @@ type PortfolioProject = {
 };
 
 const portfolioProjects: PortfolioProject[] = [
-  {
-    company: "Personal Project",
-    year: "2026",
-    title: "Creatdiv",
-    stack: "Next.js • MERN • Gemini • MongoDB • Tailwind",
-    results: [
-      {
-        title:
-          "Built a multi-modal AI SaaS platform for ATS optimization, AI content workflows, and image generation",
-      },
-      {
-        title:
-          "Designed premium UX flows with persistent history vaults and downloadable outputs",
-      },
-      {
-        title:
-          "Implemented JWT authentication, secure APIs, and scalable MongoDB persistence",
-      },
-      {
-        title:
-          "Optimized Gemini prompt pipelines and response formatting for high-quality AI outputs",
-      },
-    ],
-    link: "https://cms-genrator.vercel.app/",
-    image: creatdivPreview,
-  },
+ 
   {
   company: "Personal Project",
   year: "2026",
@@ -74,6 +49,32 @@ const portfolioProjects: PortfolioProject[] = [
   link: "https://learn-x-sigma-ten.vercel.app/",
   image: learnXPreview,
 },
+   {
+    company: "Personal Project",
+    year: "2026",
+    title: "Creatdiv",
+    stack: "Next.js • MERN • Gemini • MongoDB • Tailwind",
+    results: [
+      {
+        title:
+          "Built a multi-modal AI SaaS platform for ATS optimization, AI content workflows, and image generation",
+      },
+      {
+        title:
+          "Designed premium UX flows with persistent history vaults and downloadable outputs",
+      },
+      {
+        title:
+          "Implemented JWT authentication, secure APIs, and scalable MongoDB persistence",
+      },
+      {
+        title:
+          "Optimized Gemini prompt pipelines and response formatting for high-quality AI outputs",
+      },
+    ],
+    link: "https://cms-genrator.vercel.app/",
+    image: creatdivPreview,
+  },
   {
     company: "Personal Project",
     year: "2026",
